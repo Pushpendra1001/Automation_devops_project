@@ -322,7 +322,7 @@ spec:
       serviceAccountName: bookinfo-productpage
       containers:
       - name: productpage
-        image: vimal13/examples-bookinfo-productpage-v1:1.20.2
+        image: pushpendra1001/productpageimage:v1
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 9080
